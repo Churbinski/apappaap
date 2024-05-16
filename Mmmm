@@ -1,0 +1,18 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Try programiz.pro");
+        int q=0;
+int z=10;
+while(z<100)
+{if((z/10>4)||((z/10)%7==0))
+ {  Console.WriteLine(z);
+ }
+ z++;
+}
+
+    }
+}
